@@ -79,7 +79,7 @@ Tautan sumber data: https://www.kaggle.com/datasets/marshalpatel3558/diabetes-pr
 - `CLASS`: Label target (positif atau negatif diabetes)
 
 **Dataset ini berisi 1000 baris data.**
-** Dan ada 14 kolom yang terdiri dari:**
+**Dan ada 14 kolom yang terdiri dari:**
 - Numerik (12 kolom):
     - 8 kolom bertipe float64: Urea, HbA1c, Chol, TG, HDL, LDL, VLDL, BMI
     - 4 kolom bertipe int64: ID, No_Pation, AGE, Cr
