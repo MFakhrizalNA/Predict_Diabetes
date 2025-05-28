@@ -78,6 +78,15 @@ Tautan sumber data: https://www.kaggle.com/datasets/marshalpatel3558/diabetes-pr
 - `BMI`: Indeks massa tubuh
 - `CLASS`: Label target (positif atau negatif diabetes)
 
+**Dataset ini berisi 1000 baris data.**
+**Ada 14 kolom tang terdiri dari:**
+- Numerik (12 kolom):
+    - 8 kolom bertipe float64: Urea, HbA1c, Chol, TG, HDL, LDL, VLDL, BMI
+    - 4 kolom bertipe int64: ID, No_Pation, AGE, Cr
+- Kategorikal (2 kolom):
+    - Gender: kemungkinan berisi 'Male' / 'Female'
+    - CLASS: target label seperti 'Diabetic', 'Prediabetic' dan 'Non-Diabetic'
+
 ---
 ## 1. EDA - Bivariate
 Dengan mengamati hubungan fitur terhadap kolom CLASS, didapatkan insight sebagai berikut:
