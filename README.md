@@ -181,9 +181,8 @@ Tujuan: Sama seperti sebelumnya, kita ingin ubah data kategorikal ke numerik aga
 ## 3. Menghapus Nilai NaN
 
 Dalam proses pembersihan data (data cleaning), salah satu langkah penting adalah menghapus data yang tidak lengkap atau memiliki nilai yang hilang (missing values). Khususnya pada tahap ini, dilakukan penghapusan baris yang memiliki nilai NaN pada seluruh kolom yang tersedia, dimana terdapat dua tahap pembersihan data antara lain:
-a) Penghapusan nilai NAN pada kolom selain CLASS yang diwakili dengan variabel columns_to_check_for_na.
-
-b) Penghapusan nilai NAN pada kolom CLASS yang merupakan target variabel (label) dalam analisis atau pemodelan prediksi.
+- Penghapusan nilai NAN pada kolom selain CLASS yang diwakili dengan variabel columns_to_check_for_na.
+- Penghapusan nilai NAN pada kolom CLASS yang merupakan target variabel (label) dalam analisis atau pemodelan prediksi.
 
 ## 4. Splitting Data
 
