@@ -135,7 +135,7 @@ Pertama-tama, dilakukan identifikasi dan penanganan outlier pada data. Outlier a
 Selanjutnya, dilakukan encoding pada fitur yang bersifat kategorikal agar dapat diolah oleh algoritma machine learning yang biasanya hanya menerima input numerik. Proses ini mengubah data kategori menjadi format numerik yang dapat dipahami oleh model.
 
 3. Menghapus Nilai NaN
-Menghapus Nilai NaN Untuk memastikan bahwa semua kolom dataset tidak mengandung nilai kosong, dilakukan penghapusan semua baris yang memiliki nilai NaN pada kolom ini menggunakan fungsi dropna(). Langkah ini penting agar model prediksi tidak menerima data dengan label yang tidak diketahui. Setelah proses ini, jumlah data tersisa adalah 676 baris dengan 14 kolom.
+Untuk memastikan bahwa semua kolom dataset tidak mengandung nilai kosong, dilakukan penghapusan semua baris yang memiliki nilai NaN pada kolom ini menggunakan fungsi dropna(). Langkah ini penting agar model prediksi tidak menerima data dengan label yang tidak diketahui. Setelah proses ini, jumlah data tersisa adalah 676 baris dengan 14 kolom.
 
 4. Splitting Data
 Data kemudian dibagi menjadi data training dan data testing dengan proporsi tertentu. Tujuan pemisahan ini adalah untuk melatih model pada data training dan menguji performanya secara objektif pada data testing yang belum pernah dilihat model sebelumnya.
